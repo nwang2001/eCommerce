@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shared.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <header>
+        <nav class="main-nav">
+            <a href="home.html"><img class="logo" src="logos/logo.png"></a>
+            <ul>
+                <li><a  href="home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a class="active" href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <nav class="mini-nav">
+            <a href="home.html"><img class="logo" src="logos/minilogo.png"></a>
+            <ul>
+                <li><a  href="home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a class="active" href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <h1>Reach Out to Us:</h1>
+        <form id="contact">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name">
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name">
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+            <label for="message">Message:</label>
+            <textarea id="message"></textarea>
+            <input type="submit" value="Submit">
+          </form>          
+    </main>
+
+
+    <footer>
+        <div class="bottom-links">
+            <div>
+                <p class="bottom-header"> Color Splash</p>
+                <ul class="footer-nav">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="bottom-header">Socials</p>
+                <ul class="footer-icons">
+                    <li><a href="https://www.facebook.com/"><img class="icons" src="logos/facebook.png"></a></li>
+                    <li><a href="https://www.instagram.com/"><img class="icons" src="logos/instagram.png"></a></li>
+                    <li><a href="https://twitter.com/"><img class="icons" src="logos/twitterx.png"></a></li>
+                    <li><a href="https://www.tiktok.com/"><img class="icons" src="logos/tiktok.png"></a></li>
+                    <li><a href="https://www.linkedin.com/"><img class="icons" src="logos/linkedin.png"></a></li>
+                    <li><a href="https://www.youtube.com/"><img class="icons" src="logos/youtube.png"></a></li>
+                </ul>
+            </div>
+            <div class="subscribe">
+                <p class="bottom-header">Subscribe now to receive updates! </p>
+                <form>
+                    <label for="email">Enter email:</label>
+                    <br>
+                    <input id="emailbottom" type="text">
+                    <br>
+                    <input onclick="return validateForm()" type="submit">
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div class="bottom-content">
+            <ul>
+                <li><a>Terms & Conditions</a></li>
+                <li>| &nbsp;</li>
+                <li><a>Privacy Policy</a></li>
+                <li>| &nbsp;</li>
+                <li><a>Pledge</a></li>
+                <li>| &nbsp;</li>
+                <li><a>Careers</a></li>
+                <li>| &nbsp;</li>
+                <li><a>Support</a></li>
+            </ul>
+            <p>&copy; 2023 Color Splash, All rights reserved.</p>
+        </div>
+    </footer>
+<script src="form.js"></script>
+<script src="shared.js"></script>
+</body>
+
+</html>
