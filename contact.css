@@ -1,0 +1,173 @@
+body {
+    background: url(background.jpeg);
+    background-repeat: repeat;
+    background-size: auto;
+    height: 100%;
+}
+
+main h1 {
+    color: #a94aec;
+    margin: 1em;
+}
+
+#contact {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#contact label {
+    display: block;
+    margin: 1em;
+    color: #c155f3;
+    font-size: 1.4em;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 1em;
+    border: 0.1em solid #f7f7f7;
+    box-sizing: border-box;
+}
+
+main input[type=text],
+input[type=email],
+textarea {
+    border: 0.1em solid #b866f3;
+    border-radius: 0.4em;
+    height: 3em;
+    font: inherit;
+    background-color: #faffd1;
+    color: #b866f3;
+    margin-bottom: 1em;
+}
+
+main input[type=submit] {
+    height: 4em;
+    background-color: #b866f3;
+    font: inherit;
+    font-size: 1.2em;
+    color: #fbffe1;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 420px) {
+    main h1 {
+        font-size: 1.5em;
+    }
+
+    #contact {
+        width: 60%;
+    }
+
+    #contact label {
+        display: block;
+        margin: 0.5em;
+        font-size: 1.2em;
+    }
+
+    main input[type=text],
+    input[type=email],
+    textarea {
+        height: 2.2em;
+        margin-bottom: 0.5em;
+    }
+
+    main input[type=submit] {
+        height: 4em;
+        font-size: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (min-width:421px) and (max-width: 539px) {
+    main h1 {
+        font-size: 1.5em;
+    }
+
+    #contact {
+        width: 75%;
+    }
+
+    #contact label {
+        display: block;
+        margin: 0.5em;
+        font-size: 1.2em;
+    }
+
+    main input[type=text],
+    input[type=email],
+    textarea {
+        height: 2.6em;
+        margin-bottom: 0.5em;
+    }
+
+    main input[type=submit] {
+        height: 4em;
+        font-size: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (min-width:540px) and (max-width: 827px) {
+    main h1 {
+        font-size: 1.8em;
+    }
+
+    #contact {
+        width: 70%;
+    }
+
+    #contact label {
+        display: block;
+        margin: 0.5em;
+        font-size: 1.6em;
+    }
+
+    main input[type=text],
+    input[type=email],
+    textarea {
+        height: 2.6em;
+        margin-bottom: 0.5em;
+    }
+
+    main input[type=submit] {
+        height: 4em;
+        font-size: 1.2em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (min-width: 828px) {
+    main h1 {
+        font-size: 2em;
+    }
+
+    #contact {
+        width: 70%;
+    }
+
+    #contact label {
+        display: block;
+        margin: 1em;
+        font-size: 1.8em;
+    }
+
+    main input[type=text],
+    input[type=email],
+    textarea {
+        height: 3em;
+        margin-bottom: 0.5em;
+    }
+
+    main input[type=submit] {
+        height: 4em;
+        font-size: 1.2em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}
