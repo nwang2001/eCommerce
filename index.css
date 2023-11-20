@@ -5,7 +5,7 @@
 .slider {
     width: 100vw;
     height:500px;
-    box-shadow: rgba(207, 124, 231, 0.742) 0px 50px 100px 20px, rgba(0, 0, 0, 0.3) 0px 30px 60px 30px, rgba(207, 124, 231, 0.742) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgba(207, 124, 231, 0.742) 0px 50px 100px 20px, rgba(180, 34, 221, 0.742) 0px 50px 100px -20px;
     margin: 10px auto;
 }
 
@@ -15,7 +15,7 @@
     object-fit: fill;
     display: flex;
     justify-content: center;
-    background: linear-gradient(to bottom, #eff7b6, #fca0f1);
+    background: linear-gradient(to bottom, #fca0f1, #849fff);
 }
 
 .welcome , .about{
