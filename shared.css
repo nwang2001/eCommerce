@@ -6,6 +6,10 @@ body {
     font-family: Agbalumo;
 }
 
+.active {
+    color: #be05e3;
+}
+
 /* header css */
 header {
     width: 100%;
