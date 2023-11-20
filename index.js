@@ -1,5 +1,5 @@
 var image = document.getElementById('image');
-var slides = ['slideimages/artdesk.jpeg', 'slideimages/artstore.jpeg', 'slideimages/beads.jpeg', 'slideimages/markercups.jpeg', 'slideimages/markers.jpeg', 'slideimages/anotherdesk.jpeg', 'slideimages/brushes.jpeg', 'slideimages/paints.webp'];
+var slides = ['slideimages/artdesk.jpeg', 'slideimages/artstore.jpeg', 'slideimages/beads.jpeg', 'slideimages/markercups.jpeg', 'slideimages/markers.jpeg', 'slideimages/anotherdesk.jpeg', 'slideimages/brushes.jpeg', 'slideimages/paints.jpeg'];
 var start = 0;
 
 function slider(){
