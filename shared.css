@@ -169,8 +169,12 @@ hr {
     }
 
     .mini-nav .logo {
-        height: 3.8em;
+        height: 3.6em;
         margin-left: 0;
+    }
+
+    .logo {
+        padding: 1em;
     }
 
     .mini-nav ul {
@@ -256,6 +260,7 @@ hr {
     .mini-nav ul {
         font-size: 1.2em;
     }
+
     footer div div {
         margin-left: 1em;
     }
@@ -335,6 +340,7 @@ hr {
     .mini-nav ul {
         font-size: 1.4em;
     }
+
     footer div div {
         margin-left: 1em;
     }
