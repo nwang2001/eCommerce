@@ -1,3 +1,4 @@
+// email validation for the footer with regex
 function validateForm() {
     var email = document.getElementById("emailbottom").value;
     var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;

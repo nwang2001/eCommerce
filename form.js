@@ -8,6 +8,7 @@ form.addEventListener('submit', (event) => {
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
 
+    // only validates if user inputs info, need to add more validation
     if (firstName === '') {
         alert('Please enter your first name.');
         return;
