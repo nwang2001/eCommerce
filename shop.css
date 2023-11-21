@@ -1,6 +1,10 @@
+main {
+    background: radial-gradient(#ea9ff9, #f5def5)
+}
 main h1 {
     color: #be05e3;
-    margin: 1em;
+    padding: 1em 0.5em;
+    margin-top: 0;
 }
 .product-grid {
     display: grid;
